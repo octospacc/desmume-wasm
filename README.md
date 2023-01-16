@@ -1,0 +1,75 @@
+# DeSmuME-wasm
+
+WebAssembly port of the DeSmuME. 
+
+Designed for iPhone/iPad, also workable on other devices with a modern browser.
+
+https://ds.44670.org/
+
+Please read this guide before creating a new issue. Thanks!
+
+# Frequently Asked Questions
+
+
+**Q: Can I use it offline?**
+
+- A: Yes, as long as you have added it to the Home Screen.
+
+**Q: There is no sound.**
+
+- A: Your device's "Silent Switch" should be "Off." If the sound is still not working, please try to restart the app/add another icon on Home Screen/reboot the device.
+
+**Q: The performance is too slow/laggy.**
+
+- A: Please ensure iOS's system-wide "Low Power Mode" is disabled. The battery icon is yellow if it is enabled.
+
+**Q: The Select/Start buttons are overlapped by the Home Bar.**
+
+- A: That's okay. You can touch them as usual. If the buttons are not working, it means the game does not use the Select/Start.  
+
+**Q: How do I save my progress?**
+
+- A: Just save in the game and wait a few seconds. An auto-saving banner will appear, and your saved data will automatically be stored in the web app's local storage. On iOS, you must add the site to Home Screen first, and **your data will be deleted** when the Home Screen icon is removed.
+
+**Q: Do I have to export the savegame?**
+
+- A: You DON'T have to export the savegame manually since auto-saving is present. To prevent data loss caused by accidental deletion of the Home Screen icon or damaged device, you may manually export the saved data to a safe place.
+
+**Q: After importing the savegame, it takes me back to the main menu.**
+
+- A: It is expected behavior, the save data was imported, and you can continue playing by loading the game file again.
+
+**Q: It can't load any files.**
+
+- A: Only iOS >= 14.7 is supported. Please update your OS first.
+
+**Q: How to blow on the microphone?**
+
+- A: Pressing the 'R' button will emulate a blow on the microphone. It *may* be helpful in playing some games.
+
+
+# Performance
+
+Most 2D games could be run at 60fps on A14-based devices. 
+
+However, the performance of 3D games varies for each game. An A15-based device could run most 3D games at nearly full speed.
+
+By default, the 30FPS limit mode is enabled. It is strongly recommended to enable this mode on A14-based devices (or earlier) to protect battery life and keep the temperature comfortable for playing. 
+
+On A15-based devices, this mode could be disabled if you want a smoother experience.
+
+# Control
+
+Gamepads are supported if your OS supports it. Please note that iOS does not support most kinds of gamepads. DualShock 4 is an officially supported one.
+
+You may also want to control the game with a keyboard:
+```
+z: A
+x: B
+a: Y
+s: X
+q: L
+w: R
+enter: Start
+shift: Select
+```
