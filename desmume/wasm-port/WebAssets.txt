@@ -1,0 +1,9 @@
+app.js
+dark.css
+favicon.ico
+icon.png
+index.html
+localforage.js
+manifest.json
+pako.min.js
+sw.js
