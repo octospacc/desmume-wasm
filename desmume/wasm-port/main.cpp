@@ -131,7 +131,6 @@ void setSampleRate(int r) {
 
 int main() {
   srand(time(NULL));
-  eaVCode = rand() & 0x0FFFFFFF;
 
   NDS_Init();
   SPU_ChangeSoundCore(1, 16384);
